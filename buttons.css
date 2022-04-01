@@ -1,0 +1,18 @@
+.btn-blue {
+	background-color: rgb(230, 185, 110);
+	padding: 15px;
+	color: white;
+	font-weight: bold;
+	border-radius: 6px;
+	margin: 0 auto;
+	display: black;
+	width: 25%;
+	border: 1px solid bleu;
+}
+
+.btn-blue:hover {background-color: white; color: blue; transition: 1s;}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body{font-family: 'Lora', serif;}

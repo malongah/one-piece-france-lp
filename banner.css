@@ -1,0 +1,31 @@
+.banner {
+	height: 100vh;
+	background-image: linear-gradient(90deg, rgba(2,0,36,0.7094188017003676) 10%, rgba(47,47,60,0.8242647400757178) 55%), url("../images/banner.jpg");
+	background-size: cover;
+	background-color: black;
+	background-position: center;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 25px;
+	filter: brightness(1.0);
+}
+
+.banner h1, .banner h2 {
+	text-shadow: 2px 2px 2px black;
+}
+
+
+@media (min-width: 576px) {
+	.banner {
+		background-position: center;
+	}
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body{font-family: 'Lora', serif;}
